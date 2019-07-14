@@ -1,7 +1,8 @@
 #pragma once
 #include "Race.h"
+#include "Character.h"
 class ClassType :
-	public Race
+	public Race, Character
 {
 public:
 	ClassType();

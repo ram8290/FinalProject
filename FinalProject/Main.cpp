@@ -13,6 +13,7 @@ int main()
 
 	std::cout << "\n\t\tWelcome to my Dungeons \& Dragons \n\t\tCharacter Creator Program!\n\n";
 
+
 	std::cout << Player.race() << "\n\n";
 	std::cout << Player.playerClass() << "\n\n";
 	std::cout << Player.randRace() << "\n\n";

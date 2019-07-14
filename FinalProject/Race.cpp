@@ -10,7 +10,7 @@ Race::Race()
 std::string Race::race()
 {
 	std::ofstream cf;
-	cf.open("CharacterFile.txt");
+	cf.open("C\:\\Users\\Rick\\Desktop\\CharacterFile.txt", std::ios::app);
 
 	int num;
 	std::string trueRace;
@@ -60,7 +60,7 @@ std::string Race::race()
 std::string Race::randRace()
 {
 	std::ofstream rcf;
-	rcf.open("RandomCharacterFile.txt");
+	rcf.open("C\:\\Users\\Rick\\Desktop\\RandomCharacterFile.txt", std::ios::app);
 
 	int num;
 

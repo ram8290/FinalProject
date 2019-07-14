@@ -10,7 +10,7 @@ ClassType::ClassType()
 std::string ClassType::playerClass()
 {
 	std::ofstream cf;
-	cf.open("CharacterFile.txt");
+	cf.open("C\:\\Users\\Rick\\Desktop\\CharacterFile.txt", std::ios::app);
 
 
 
@@ -54,7 +54,7 @@ std::string ClassType::playerClass()
 std::string ClassType::randPlayerClass()
 {
 	std::ofstream rcf;
-	rcf.open("RandomCharacterFile.txt");
+	rcf.open("C\:\\Users\\Rick\\Desktop\\RandomCharacterFile.txt",std::ios::app);
 
 	std::string playerClass[] = { "Barbarian", "Bard", "Cleric", "Paladin", "Ranger", "Rogue", "Wizard", "Fighter" };
 	int i;

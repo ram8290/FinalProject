@@ -1,7 +1,10 @@
 #pragma once
+#include "Character.h"
+#include "ClassType.h"
 #include <string>
 
-class Race
+class Race :
+	public Character, ClassType
 {
 public:
 	Race();
