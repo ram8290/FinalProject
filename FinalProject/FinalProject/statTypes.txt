@@ -1,0 +1,6 @@
+My Strength is     :
+My Dexterity is    :
+My Constitution is :
+My Intelligence is :
+My Wisdom is       :
+My Charisma is     :
